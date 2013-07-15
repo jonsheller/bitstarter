@@ -5,6 +5,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width-device-width, initial-scale=1.0">
     <link type="text/css" rel="stylesheet" href="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fbootstrap-combined.no-icons.min.css">
+    <link href="http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700,300italic,400italic,500italic,700italic" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,300,400,600,700,800" rel="stylesheet" type="text/css">
     <style type="text/css">
       /* Large desktop */
       @media (min-width: 980px) {
@@ -18,16 +20,26 @@
           border-left: 1px white solid;
         }
       }
+
+      /* All form factors */
       body {
-        padding-bottom: 40px;
+        font-family: 'Open Sans', Helvetica, Arial, sans-serif;
       }
 
-      .container {
-        width: 960px;
+      .heading, .subheading {
+        font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
+        text-align: center;
       }
 
       p.lead {
-        padding-top: 15px;
+        padding-top: 1.5%;
+        font-size: 24px;
+        line-height: 30px;
+      }
+
+      p {
+        font-size: 18px;
+        line-height: 24px;
       }
 
       .navigation, .pitch, .section1, .section2, .faq, .footer {
@@ -76,28 +88,17 @@
       </div>
     </div>
     <div class="container">
-      <div class="row navigation">
-	<div class="span2 logo">
-	  Logo
-	  </div>
-	<div class="span6 blank">
-	  Blank
-	  </div>
-	<div class="span4 about">
-	  About
-	  </div>
-	</div>
-      <div class="row heading">
+      <div class="row-fluid heading">
 	<div class="span12">
-	  <h1>Bitstarter Title</h1>
-	  </div>
+	  <h1>Product</h1>
 	</div>
-      <div class="row subheading">
+      </div>
+      <div class="row-fluid subheading">
 	<div class="span12">
 	  <p class="lead">This is my first bitstarter project.</p>
 	</div>
 	</div>
-      <div class="row pitch">
+      <div class="row-fluid pitch">
 	<div class="span6 video">
 	  Video
 	  </div>
@@ -113,22 +114,22 @@
 	    </div>
 	  </div>
 	</div>
-      <div class="row section1">
+      <div class="row-fluid section1">
 	<div class="span12">
 	  Marketing Section 1
 	  </div>
 	</div>
-      <div class="row section2">
+      <div class="row-fluid section2">
 	<div class="span12">
 	  Marketing Section 2
 	  </div>
 	</div>
-      <div class="row faq">
+      <div class="row-fluid faq">
 	<div class="span12">
 	  FAQ
 	  </div>
 	</div>
-      <div class="row footer">
+      <div class="row-fluid footer">
 	<div class="span12">
 	  Footer
 	  </div>
